@@ -1,7 +1,10 @@
 <?php get_header( ); ?>
-<?php get_template_part( 'template-parts/catalogue' );?>
+<section class="p-6 bg-cwyellow flex justify-center">
+	<img src="<?php echo get_template_directory_uri( ); ?>/img/Chemist-Warehouse-Hoarding.png" alt="" class="max-h-[120px] h-auto max-w-full w-auto">
+</section>
+<!--?php get_template_part( 'template-parts/catalogue' );?-->
 <div class="container mx-auto my-8">
-	<img src="<?php echo get_template_directory_uri( ); ?>/img/header.png" alt="">
+	<!--img src="<?php echo get_template_directory_uri( ); ?>/img/header.png" alt=""-->
 <a href="<?php echo site_url(); ?>/careers"><img src="<?php echo get_template_directory_uri( ); ?>/img/join-our-team-long-banner.png" alt="" class="my-6 mx-auto"></a>
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>

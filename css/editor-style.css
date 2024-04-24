@@ -92,8 +92,20 @@
 .h-6 {
     height: 1.5rem
 }
+.h-\[200px\] {
+    height: 200px
+}
+.h-\[120px\] {
+    height: 120px
+}
+.h-auto {
+    height: auto
+}
 .max-h-\[80px\] {
     max-height: 80px
+}
+.max-h-\[120px\] {
+    max-height: 120px
 }
 .min-h-screen {
     min-height: 100vh
@@ -112,6 +124,9 @@
 }
 .max-w-sm {
     max-width: 24rem
+}
+.max-w-full {
+    max-width: 100%
 }
 .flex-grow {
     flex-grow: 1
@@ -173,6 +188,10 @@
     --tw-bg-opacity: 1;
     background-color: rgb(1 72 150 / var(--tw-bg-opacity))
 }
+.bg-cwyellow {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 242 0 / var(--tw-bg-opacity))
+}
 .bg-gray-100 {
     --tw-bg-opacity: 1;
     background-color: rgb(243 244 246 / var(--tw-bg-opacity))
@@ -185,8 +204,14 @@
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
+.p-2 {
+    padding: 0.5rem
+}
 .p-4 {
     padding: 1rem
+}
+.p-6 {
+    padding: 1.5rem
 }
 .px-3 {
     padding-left: 0.75rem;
