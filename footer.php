@@ -11,7 +11,7 @@
 	<?php do_action( 'tailpress_footer' ); ?>
 
 	<div class="container mx-auto text-center text-white">
-		&copy; <?php echo date_i18n( 'Y' );?> - <?php echo get_bloginfo( 'name' );?>
+		Pharmacy LLC <?php echo date_i18n( 'Y' );?> - Pharmacy LLC <!--?php echo get_bloginfo( 'name' );?-->
 	</div>
 </footer>
 
