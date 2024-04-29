@@ -3,6 +3,8 @@
         <summary class="bg-cwblue text-white font-bold uppercase p-4 cursor-pointer"><?php the_title(); ?></summary>
         <div class="py-4 px-6 bg-gray-100">
             <?php the_content(); ?>
+            <hr>
+            <?php echo do_shortcode( '[fluentform id="4"]' ); ?>
         </div>
     </details>
 </article>
