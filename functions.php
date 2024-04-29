@@ -217,7 +217,7 @@ function custom_post_type_jobs() {
         'has_archive'           => true,
         'rewrite'               => array( 'slug' => 'jobs' ),
         'exclude_from_search'   => false,
-        'publicly_queryable'    => true,
+        'publicly_queryable'    => false,
         'capability_type'       => 'post',
     );
     register_post_type( 'jobs', $args );
