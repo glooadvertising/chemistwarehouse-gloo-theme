@@ -3,9 +3,9 @@
         <summary class="bg-cwblue text-white font-bold uppercase p-4 cursor-pointer"><?php the_title(); ?></summary>
         <div class="py-4 px-6 bg-gray-100">
             <?php the_content(); ?>
-            <hr class="mb-6">
+            <!-- <hr class="mb-6">
 
-            <h2 class="text-cwblue text-2xl font-bold uppercase mb-6">Apply to this position</h2>
+            <h2 class="text-cwblue text-2xl font-bold uppercase mb-6">Apply to this position</h2> -->
 
             <?php echo do_shortcode( '[fluentform id="4"]' ); ?>
         </div>

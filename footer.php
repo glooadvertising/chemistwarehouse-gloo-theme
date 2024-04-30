@@ -11,7 +11,7 @@
 	<?php do_action( 'tailpress_footer' ); ?>
 
 	<div class="container mx-auto text-center text-white">
-		Pharmacy LLC <?php echo date_i18n( 'Y' );?> - Pharmacy LLC <!--?php echo get_bloginfo( 'name' );?-->
+		&#169; <?php echo date_i18n( 'Y' );?> - Chemist Warehouse UAE - CWH Pharmacy LLC - All Rights Reserved <!--?php echo get_bloginfo( 'name' );?-->
 	</div>
 </footer>
 
