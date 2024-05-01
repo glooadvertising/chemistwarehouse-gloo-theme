@@ -704,6 +704,10 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(1 72 150 / var(--tw-bg-opacity));
 }
+.bg-cwred{
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 7 34 / var(--tw-bg-opacity));
+}
 .bg-cwyellow{
     --tw-bg-opacity: 1;
     background-color: rgb(255 242 0 / var(--tw-bg-opacity));
@@ -719,10 +723,6 @@ video {
 .bg-white{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-cwred{
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 7 34 / var(--tw-bg-opacity));
 }
 .p-4{
     padding: 1rem;
@@ -792,9 +792,6 @@ video {
 .text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
-}
-.text-xl{
-    font-size: 1.25rem;
 }
 .font-black{
     font-weight: 900;
@@ -967,6 +964,15 @@ h2.wp-block-heading{
 .main-logo a img{
     max-height: 80px;
     width: auto;
+}
+article.store b{
+    --tw-text-opacity: 1;
+    color: rgb(1 72 150 / var(--tw-text-opacity));
+}
+article.store a{
+    --tw-text-opacity: 1;
+    color: rgb(1 72 150 / var(--tw-text-opacity));
+    text-decoration-line: underline;
 }
 .last\:border-b:last-child{
     border-bottom-width: 1px;

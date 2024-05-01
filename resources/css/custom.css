@@ -70,3 +70,11 @@ h2.wp-block-heading {
     @apply max-h-[80px] w-auto
 }
 
+article.store b {
+    @apply text-cwblue;
+}
+
+article.store a {
+    @apply underline text-cwblue;
+}
+

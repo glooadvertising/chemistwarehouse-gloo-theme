@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="border-t border-cwred grid sm:grid-cols-5 py-6 gap-6 last:border-b">
+<article id="post-<?php the_ID(); ?>" class="store border-t border-cwred grid sm:grid-cols-5 py-6 gap-6 last:border-b">
     <div class="col-span-5 sm:col-span-3 flex flex-col justify-start items-start w-full gap-4">
         <h2 class="text-cwblue font-bold uppercase"><?php the_title(); ?></h2>
         <?php the_content(); ?>
