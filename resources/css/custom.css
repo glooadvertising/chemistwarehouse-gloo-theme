@@ -70,11 +70,15 @@ h2.wp-block-heading {
     @apply max-h-[80px] w-auto
 }
 
-article.store b, article.store strong {
+article.store b, details.job b, details.job strong, article.store strong {
     @apply text-cwblue;
 }
 
-article.store a {
+article.store a, details.job a {
     @apply underline text-cwblue;
+}
+
+details.job ul li ul {
+    @apply list-disc;
 }
 

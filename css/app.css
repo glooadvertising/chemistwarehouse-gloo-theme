@@ -965,14 +965,17 @@ h2.wp-block-heading{
     max-height: 80px;
     width: auto;
 }
-article.store b, article.store strong{
+article.store b, details.job b, details.job strong, article.store strong{
     --tw-text-opacity: 1;
     color: rgb(1 72 150 / var(--tw-text-opacity));
 }
-article.store a{
+article.store a, details.job a{
     --tw-text-opacity: 1;
     color: rgb(1 72 150 / var(--tw-text-opacity));
     text-decoration-line: underline;
+}
+details.job ul li ul{
+    list-style-type: disc;
 }
 .last\:border-b:last-child{
     border-bottom-width: 1px;
