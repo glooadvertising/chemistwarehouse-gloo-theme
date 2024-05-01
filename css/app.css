@@ -965,7 +965,7 @@ h2.wp-block-heading{
     max-height: 80px;
     width: auto;
 }
-article.store b{
+article.store b, article.store strong{
     --tw-text-opacity: 1;
     color: rgb(1 72 150 / var(--tw-text-opacity));
 }
