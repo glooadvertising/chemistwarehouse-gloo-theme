@@ -7,7 +7,7 @@
 
             <h2 class="text-cwblue text-2xl font-bold uppercase mb-6">Apply to this position</h2> -->
 
-            <?php echo do_shortcode( '[fluentform id="4"]' ); ?>
+            <!--?php echo do_shortcode( '[fluentform id="4"]' ); ?-->
         </div>
     </details>
 </article>
