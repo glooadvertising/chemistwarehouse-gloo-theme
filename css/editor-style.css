@@ -204,6 +204,10 @@
     --tw-bg-opacity: 1;
     background-color: rgb(1 72 150 / var(--tw-bg-opacity))
 }
+.bg-cwred {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 7 34 / var(--tw-bg-opacity))
+}
 .bg-cwyellow {
     --tw-bg-opacity: 1;
     background-color: rgb(255 242 0 / var(--tw-bg-opacity))
@@ -219,10 +223,6 @@
 .bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-.bg-cwred {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 7 34 / var(--tw-bg-opacity))
 }
 .p-4 {
     padding: 1rem
@@ -273,14 +273,6 @@
     font-size: 1.5rem;
     line-height: 2rem
 }
-.text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem
-}
-.text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem
-}
 .text-5xl {
     font-size: 3rem;
     line-height: 1
@@ -292,9 +284,6 @@
 .text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem
-}
-.text-xl {
-    font-size: 1.25rem
 }
 .font-black {
     font-weight: 900
@@ -435,10 +424,6 @@ body {
     .sm\:grid-cols-5 {
         grid-template-columns: repeat(5, minmax(0, 1fr))
     }
-    .sm\:text-2xl {
-        font-size: 1.5rem;
-        line-height: 2rem
-    }
 }
 @media (min-width: 782px) {
     .md\:my-6 {
@@ -477,15 +462,6 @@ body {
     }
     .lg\:flex {
         display: flex
-    }
-    .lg\:hidden {
-        display: none
-    }
-    .lg\:items-center {
-        align-items: center
-    }
-    .lg\:justify-center {
-        justify-content: center
     }
     .lg\:bg-transparent {
         background-color: transparent

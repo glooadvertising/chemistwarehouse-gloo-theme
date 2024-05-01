@@ -1,6 +1,6 @@
 <?php get_header( ); ?>
 <section class="bg-cwred py-2 text-2xl md:text-3xl text-center text-white uppercase font-extrabold">
-Opening Soon in the UAE
+Opening Soon in the UAE!!!
 </section>
 <section class="p-6 bg-cwyellow flex justify-center">
 	<img src="<?php echo get_template_directory_uri( ); ?>/img/Chemist-Warehouse-Hoarding.jpeg" alt="" class="max-h-[120px] h-auto max-w-full w-auto">
