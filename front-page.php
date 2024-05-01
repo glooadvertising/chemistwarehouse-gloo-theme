@@ -1,5 +1,5 @@
 <?php get_header( ); ?>
-<section class="bg-cwred py-2 text-3xl text-center text-white uppercase font-extrabold">
+<section class="bg-cwred py-2 text-2xl md:text-3xl text-center text-white uppercase font-extrabold">
 Opening Soon in the UAE
 </section>
 <section class="p-6 bg-cwyellow flex justify-center">
@@ -8,8 +8,8 @@ Opening Soon in the UAE
 <!--?php get_template_part( 'template-parts/catalogue' );?-->
 <div class="container mx-auto my-8">
 	<!--img src="<?php echo get_template_directory_uri( ); ?>/img/header.png" alt=""-->
-	<a href="<?php echo site_url('/careers'); ?>" class="bg-cwyellow text-cwblue font-black uppercase text-4xl px-12 py-8 flex text-center justify-center hover:bg-cwblue hover:text-cwyellow transition-all mb-4">Click here to join our team</a>
-	<a href="<?php echo site_url('/list-your-products-with-us'); ?>" class="bg-cwyellow text-cwblue font-black uppercase text-3xl px-12 py-8 flex text-center justify-center hover:bg-cwblue hover:text-cwyellow transition-all">Click here to List your products with us</a>
+	<a href="<?php echo site_url('/careers'); ?>" class="bg-cwyellow text-cwblue font-black uppercase text-2xl md:text-4xl px-12 py-8 flex text-center justify-center hover:bg-cwblue hover:text-cwyellow transition-all mb-4">Click here to join our team</a>
+	<a href="<?php echo site_url('/list-your-products-with-us'); ?>" class="bg-cwyellow text-cwblue font-black uppercase text-2xl md:text-3xl px-12 py-8 flex text-center justify-center hover:bg-cwblue hover:text-cwyellow transition-all">Click here to List your products with us</a>
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>

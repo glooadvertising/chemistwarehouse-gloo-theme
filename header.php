@@ -20,7 +20,7 @@
 	<header class="bg-cwblue text-white">
 
 		<div class="mx-auto container">
-			<div class="lg:flex lg:justify-center lg:items-center py-2">
+			<div class="flex justify-center items-center py-2">
 				<div class="flex justify-between items-center">
 					<div class="main-logo">
 						<?php if ( has_custom_logo() ) { ?>
@@ -37,7 +37,7 @@
 						<?php } ?>
 					</div>
 
-					<div class="lg:hidden">
+					<div class="hidden">
 						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
 							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
 								 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
